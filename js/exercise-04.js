@@ -24,4 +24,4 @@
    /*  In an OR operation (||), if the first operand is false,
     the expression evaluates the second operand, which is the console.log("bye friend") statement. As a result,
      "bye friend" is logged to the console*/
-     
+   

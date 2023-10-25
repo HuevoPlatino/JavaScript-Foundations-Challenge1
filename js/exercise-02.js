@@ -20,3 +20,5 @@ console.log(variableConst);
 /*In the const example, you'll encounter an error because you cannot declare a const variable
  without initializing it, and you cannot change its value after initialization. This is what makes
   const variables different from let variables, which can be assigned a value later and can also be reassigned*/
+
+  

@@ -7,9 +7,12 @@ function getTypeOf(valor) {
     return typeof valor;
   }
   
-  console.log(getTypeOf("Hello Jaume")); 
-  console.log(getTypeOf(42)); 
-  console.log(getTypeOf(true)); 
-  console.log(getTypeOf(null)); 
-  console.log(getTypeOf(undefined)); 
+  console.log(getTypeOf("Hello Jaume")); // String 
+  console.log(getTypeOf(42)); // Number 
+  console.log(getTypeOf(true)); // Boolean
+  console.log(getTypeOf(null)); // null
+  console.log(getTypeOf(undefined)); // undefined
+
+
+
   

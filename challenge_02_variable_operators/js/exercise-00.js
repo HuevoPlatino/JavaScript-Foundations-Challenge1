@@ -8,7 +8,7 @@
 
    Log out each variable to the terminal at the end.
 */
-const string = 'string';
+const string = "string";
 const number = 1;
 const boolean = true;
 const nullValue = null;

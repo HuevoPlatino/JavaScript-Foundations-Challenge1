@@ -7,11 +7,10 @@
 console.log("---Exercise 0---");
 // 1.
 for (let i = 10; i <= 40; i += 2) {
-    console.log(i);
-    }
+  console.log(i);
+}
 
 // 2.
 for (let i = 11; i <= 40; i += 2) {
-    console.log(i);
-    }
-    
+  console.log(i);
+}

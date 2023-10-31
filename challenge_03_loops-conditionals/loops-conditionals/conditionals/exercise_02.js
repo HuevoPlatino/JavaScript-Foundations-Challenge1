@@ -18,7 +18,6 @@ if (age < 3) {
   console.log("What? How did this happen!?");
 }
 
-
 // Solution
 
 // The problem is that the first if statement is true, so the rest of the else if statements are ignored.

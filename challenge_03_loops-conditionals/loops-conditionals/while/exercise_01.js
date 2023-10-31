@@ -11,8 +11,8 @@ let num = 10;
 console.log("Even numbers between 10 and 40:");
 
 while (num <= 40) {
-    console.log(num);
-    num += 2;
+  console.log(num);
+  num += 2;
 }
 
 num = 11;
@@ -20,6 +20,6 @@ num = 11;
 console.log("Odd numbers between 10 and 40:");
 
 while (num <= 40) {
-    console.log(num);
-    num += 2;
+  console.log(num);
+  num += 2;
 }

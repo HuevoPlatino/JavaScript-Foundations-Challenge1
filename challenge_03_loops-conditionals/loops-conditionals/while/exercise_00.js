@@ -7,3 +7,14 @@
 
     HINT1: Be careful for an infinite loop!
 */
+
+console.log("---Exercise 00---");
+
+let loggedIn = false;
+
+while (loggedIn === false) {
+    console.log("Incorrect login credentials");
+    loggedIn = true;
+}
+
+console.log("Sucessfully logged in!");

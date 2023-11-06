@@ -21,4 +21,15 @@ if (animal === "cat") {
   console.log("Must be an alien");
 }
 
-console.log("--- Animal check complete ---");
+
+ animal = "cat";
+
+ if (animal === "cat") {
+   console.log("Meow!");
+ } else if (animal === "dog") {
+   console.log("Woof!");
+ } else {
+   console.log("Must be an alien");
+ }
+
+ 

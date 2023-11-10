@@ -10,23 +10,17 @@
 
 console.log("--- Even or Odd ---");
 
+function checkEvenOrOdd(number) {
+  if (number % 2 === 0) {
+    return "Even";
+  } if(number % 2 !== 0) {
+    return "Odd";
+  }
+}
+
 let number = 4;
-
-if (number % 2 === 0) {
-  console.log("Even");
-}
-
-if (number % 2 !== 0) {
-  console.log("Odd");
-}
+console.log(checkEvenOrOdd(number));
 
 number = 5;
-
-if (number % 2 === 0) {
-  console.log("Even");
-}
-
-if (number % 2 !== 0) {
-  console.log("Odd");
-}
+console.log(checkEvenOrOdd(number));
 

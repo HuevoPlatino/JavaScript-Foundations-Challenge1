@@ -11,33 +11,21 @@
 
 console.log("--- Animal Checker Program ---");
 
-let animal = "dog";
-
-if (animal === "cat") {
-  console.log("Meow!");
+function animalSound(animal) {
+  if (animal === "cat") {
+    return "Meow!";
+  } if (animal === "dog") {
+    return "Woof!";
+  } if(animal !== "cat" && animal !== "dog") {
+    return "Must be an alien";
+  }
 }
 
-if (animal === "dog") {
-  console.log("Woof!");
-}
+let animal = "cat";
+console.log(animalSound(animal));
 
-if (animal !== "cat" && animal !== "dog") {
-  console.log("Must be an alien");
-}
-
-animal = "cat";
-
-if (animal === "cat") {
-  console.log("Meow!");
-}
-
-if (animal === "dog") {
-  console.log("Woof!");
-}
-
-if (animal !== "cat" && animal !== "dog") {
-  console.log("Must be an alien");
-}
+animal = "dog";
+console.log(animalSound(animal));
 
 
  

@@ -5,12 +5,12 @@
 */
 
 console.log("---Exercise 0---");
-// 1.
-for (let i = 10; i <= 40; i += 2) {
-  console.log(i);
+// 1
+for (let index = 10; index <= 40; index += 2) {
+  console.log(index);
 }
 
-// 2.
-for (let i = 11; i <= 40; i += 2) {
-  console.log(i);
+// 2
+for (let index = 11; index <= 39; index += 2) {
+  console.log(index);
 }

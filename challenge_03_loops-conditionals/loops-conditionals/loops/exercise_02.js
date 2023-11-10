@@ -19,14 +19,15 @@
     All, done!
 */
 console.log("---Exercise 2---");
-for (let i = 1; i <= 100; i++) {
-  if (i % 10 === 0) {
-    console.log("Checkpoint! " + i);
+for (let index = 1; index <= 100; index++) {
+  if (index % 10 === 0 && index !== 50 && index !== 100) {
+    console.log("Checkpoint! " + index);
   }
-  if (i === 50) {
+  if (index === 50) {
     console.log("Half way there!");
   }
-  if (i === 100) {
-    console.log("You made it!");
-  }
 }
+console.log("You made it!");
+console.log("All, done!");
+
+

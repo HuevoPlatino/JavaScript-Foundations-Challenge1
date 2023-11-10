@@ -13,7 +13,8 @@ console.log("--- Even or Odd ---");
 function checkEvenOrOdd(number) {
   if (number % 2 === 0) {
     return "Even";
-  } if(number % 2 !== 0) {
+  }
+  if (number % 2 !== 0) {
     return "Odd";
   }
 }
@@ -23,4 +24,3 @@ console.log(checkEvenOrOdd(number));
 
 number = 5;
 console.log(checkEvenOrOdd(number));
-

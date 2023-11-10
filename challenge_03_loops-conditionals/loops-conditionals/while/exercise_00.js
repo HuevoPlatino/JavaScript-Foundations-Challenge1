@@ -11,7 +11,7 @@
 console.log("---Exercise 00---");
 
 let loggedIn = false;
-let whileloops = 0; 
+let whileloops = 0;
 
 while (!loggedIn) {
   if (whileloops < 3) {
@@ -25,4 +25,3 @@ while (!loggedIn) {
 }
 
 console.log("Successfully logged in!");
-

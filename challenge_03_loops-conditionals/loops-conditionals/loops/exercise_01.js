@@ -8,11 +8,12 @@
 */
 
 console.log("---Exercise 1---");
-for (let index  = 1; index <= 10; index++) {
+for (let index = 1; index <= 10; index++) {
   let random = Math.floor(Math.random() * 10) + 1;
   if (random >= 5) {
     console.log("Logged In!");
-  } if(random < 5) {
+  }
+  if (random < 5) {
     console.log("Logged Out!");
   }
 }

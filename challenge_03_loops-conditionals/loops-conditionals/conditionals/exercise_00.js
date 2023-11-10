@@ -14,9 +14,11 @@ console.log("--- Animal Checker Program ---");
 function animalSound(animal) {
   if (animal === "cat") {
     return "Meow!";
-  } if (animal === "dog") {
+  }
+  if (animal === "dog") {
     return "Woof!";
-  } if(animal !== "cat" && animal !== "dog") {
+  }
+  if (animal !== "cat" && animal !== "dog") {
     return "Must be an alien";
   }
 }
@@ -26,6 +28,3 @@ console.log(animalSound(animal));
 
 animal = "dog";
 console.log(animalSound(animal));
-
-
- 

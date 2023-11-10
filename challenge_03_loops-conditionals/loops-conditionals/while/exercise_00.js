@@ -11,10 +11,18 @@
 console.log("---Exercise 00---");
 
 let loggedIn = false;
+let whileloops = 0; 
 
-while (loggedIn === false) {
-  console.log("Incorrect login credentials");
-  loggedIn = true;
+while (!loggedIn) {
+  if (whileloops < 3) {
+    console.log("Incorrect login credentials");
+    whileloops++;
+  }
+
+  if (whileloops >= 3) {
+    loggedIn = true;
+  }
 }
 
-console.log("Sucessfully logged in!");
+console.log("Successfully logged in!");
+

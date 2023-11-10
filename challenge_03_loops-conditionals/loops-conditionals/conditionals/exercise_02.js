@@ -4,33 +4,42 @@
 
    Add a comment explaining what is happenning and how to fix it
 */
-const age = 20;
+// const age = 20;
 
-if (age < 3) {
-  console.log("You're just a baby!");
-} else if (age >= 3) {
-  console.log("You are in elementary school, kid.");
-} else if (age >= 13) {
-  console.log("Nice, you're a teenager!");
-} else if (age >= 18) {
-  console.log("Most places consider you an adult.");
-} else {
-  console.log("What? How did this happen!?");
-}
+// if (age < 3) {
+//   console.log("You're just a baby!");
+// } else if (age >= 3) {
+//   console.log("You are in elementary school, kid.");
+// } else if (age >= 13) {
+//   console.log("Nice, you're a teenager!");
+// } else if (age >= 18) {
+//   console.log("Most places consider you an adult.");
+// } else {
+//   console.log("What? How did this happen!?");
+// }
 
 // Solution
 
 // The problem is that the first if statement is true, so the rest of the else if statements are ignored.
 
-/*if (age < 18) {
+const age = 20;
+
+if (age < 3) {
   console.log("You're just a baby!");
-} else if (age >= 18) {
+}
+
+if (age >= 3 && age < 13) {
   console.log("You are in elementary school, kid.");
-} else if (age >= 13) {
+}
+
+if (age >= 13 && age < 18) {
   console.log("Nice, you're a teenager!");
-} else if (age >= 3) {
+}
+
+if (age >= 18) {
   console.log("Most places consider you an adult.");
-} else {
+}
+
+if (age >= 3 && age < 18) {
   console.log("What? How did this happen!?");
 }
-*/

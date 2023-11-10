@@ -14,7 +14,9 @@ let number = 4;
 
 if (number % 2 === 0) {
   console.log("Even");
-} else {
+}
+
+if (number % 2 !== 0) {
   console.log("Odd");
 }
 
@@ -22,6 +24,9 @@ number = 5;
 
 if (number % 2 === 0) {
   console.log("Even");
-} else {
+}
+
+if (number % 2 !== 0) {
   console.log("Odd");
 }
+

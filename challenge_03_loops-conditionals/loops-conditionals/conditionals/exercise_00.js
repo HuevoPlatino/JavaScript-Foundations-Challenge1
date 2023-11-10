@@ -15,21 +15,29 @@ let animal = "dog";
 
 if (animal === "cat") {
   console.log("Meow!");
-} else if (animal === "dog") {
+}
+
+if (animal === "dog") {
   console.log("Woof!");
-} else {
+}
+
+if (animal !== "cat" && animal !== "dog") {
   console.log("Must be an alien");
 }
 
+animal = "cat";
 
- animal = "cat";
+if (animal === "cat") {
+  console.log("Meow!");
+}
 
- if (animal === "cat") {
-   console.log("Meow!");
- } else if (animal === "dog") {
-   console.log("Woof!");
- } else {
-   console.log("Must be an alien");
- }
+if (animal === "dog") {
+  console.log("Woof!");
+}
+
+if (animal !== "cat" && animal !== "dog") {
+  console.log("Must be an alien");
+}
+
 
  

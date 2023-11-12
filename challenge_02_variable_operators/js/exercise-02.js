@@ -10,8 +10,8 @@
 let variableLet;
 const variableConst="¡Mooo const!"; 
 
-variable = "¡Moo let!"; 
-console.log(variable); 
+variableLet = "¡Moo let!"; 
+console.log(variableLet); 
 
 //Const; 
 

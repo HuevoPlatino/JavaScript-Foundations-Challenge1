@@ -7,13 +7,14 @@
 */
 
 //Let
-let variableLet; 
-variable = "¡Moo!"; 
-console.log(variable); 
+let variableLet;
+const variableConst="¡Mooo const!"; 
 
-//Const
-const variableConst; 
-variableConst = "¡Moo!"; 
+variableLet = "¡Moo let!"; 
+console.log(variableLet); 
+
+//Const; 
+
 console.log(variableConst); 
 
 

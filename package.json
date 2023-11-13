@@ -1,0 +1,16 @@
+{
+  "name": "javascript-foundations-challenge1",
+  "version": "1.0.0",
+  "description": "<figure style=\"text-align: center\">\r    <img src=\"./assets/javascript-icon.png\" alt=\"DOM Tree\" width=\"100\" />\r    <figcaption>JavaScript</figcaption>\r </figure>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx prettier . --check",
+    "lint:fix": "npx prettier . --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.0.3"
+  }
+}
